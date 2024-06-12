@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: kanit;
+}
+.colSidebar.col-lg-2 {
+    height: 100vh;
+}
+
+
+
+.colSidebar.col-lg-2 {
+    background: black;
+    color: white;
+    padding: 0;
+    border: none;
+}
+
+.colMain.col-lg-10 {
+    color: white;
+    background: -webkit-linear-gradient(90deg, hsla(6, 28%, 46%, 1) 0%, hsla(0, 52%, 44%, 1) 100%);
+}
+
+
+.colSidebar.col-lg-2 {
+    height: auto;
+}
+
+.colMain.col-lg-10 {
+    height: 129vh ;
+}
+
+.no-hate-message {
+    text-align: center;
+    margin-top: 20px;
+}

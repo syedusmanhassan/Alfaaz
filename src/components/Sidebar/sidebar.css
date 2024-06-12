@@ -1,0 +1,76 @@
+img.logo-image {
+    width: 74%;
+    margin-top: 13%;
+    margin-left: 13%;
+  }
+
+  .OptionWrapper {
+    margin-top: 25%;
+}
+
+.sidebar-link {
+    display: flex;
+    align-content: stretch;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 5px;
+    margin-left: 1%;
+    padding: 8px;
+    font-size: 19px;
+    margin-top: 3%;
+    font-weight: 200;
+}
+
+svg.sideBarIcon {
+    font-size: 30px;
+}
+
+.sidebar-link:hover {
+    background: white;
+    color: black;
+    padding: 8px;
+    border-radius: 7px;
+    transition: 0.3s ease-in;
+}
+
+img.logo-image {
+    width: 74%;
+    margin-top: 13%;
+    margin-left: 13%;
+    background: white;
+    border-radius: 22px;
+    padding: 11px;
+}
+
+.logout {
+    margin-top: 113%;
+}
+
+
+a.sidebar-link {
+    text-decoration: none;
+    color: white;
+}
+
+input.speaktext {
+    padding: 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 96%;
+    background: #853b3b;
+    color: white;
+    border: none;
+    margin-bottom: 15px;
+}
+
+svg.sideBarIcon {
+    font-size: 30px;
+    padding: 4px;
+    border-radius: 100%;
+    background: white;
+}
+
+.sidebar-link {
+    color: white;
+}

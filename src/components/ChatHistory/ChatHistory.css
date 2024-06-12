@@ -1,0 +1,47 @@
+th.TitleX {
+    font-family: Kanit;
+    background: black;
+    color: white;
+    padding: 25px;
+}
+
+.ChatTable {
+    margin-top: 3%;
+}
+
+.sentences {
+    font-family: Kanit !important;
+    font-size: 16px !important;
+    color: #a14a48 !important;
+}
+
+.scores {
+    font-size: 17px !important;
+    color: black !important;
+    text-align: end !important;
+}
+.sentences {
+    text-decoration: underline !important;
+}
+
+h3.ChatHistoryTitle {
+    margin-top: 2% !important;
+}
+
+h3.ChatHistoryTitle {
+    margin-top: 5%;
+    font-weight: 600;
+}
+
+.sentences {
+    padding: 19px !important;
+}
+
+th.TitleX {
+    font-size: 16px;
+    font-family: Kanit;
+    background: black;
+    color: white;
+    padding: 25px;
+    font-weight: 700;
+}

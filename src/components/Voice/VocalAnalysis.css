@@ -1,0 +1,377 @@
+.main-content {
+    margin-left: 200px; /* Adjust according to sidebar width */
+    width: calc(100% - 200px);
+    padding: 20px;
+  }
+  
+  .example .highlight-bad {
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+  }
+  
+  .barometer .progress-bar {
+    background-color: red;
+  }
+  
+  .form-check-input {
+    margin-right: 10px;
+  }
+  
+  .wordcloud, .chart, .distribution-chart, .historical-analysis {
+    border: 1px solid #ddd;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px; /* Space between sections */
+  }
+  
+  .wordcloud {
+    background-color: #f8f9fa; /* Bootstrap light color */
+  }
+  
+ 
+  
+h4.NoHateH4 {
+    margin-top: 13%;
+    color: white;
+}
+
+
+
+  
+
+  .col-md-6 {
+    font-family: Kanit;
+    font-size: 20px;
+  }
+
+
+  /* chatcss */
+
+  /* chat.css */
+
+/* Chat container */
+
+
+/* Chat messages */
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Individual message */
+.message {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+/* Sender-specific styles */
+.user {
+  background-color: #cceeff;
+  align-self: flex-start;
+}
+
+.bot {
+  background-color: #ffd9b3;
+  align-self: flex-end;
+}
+
+/* Chat form */
+.chat-form {
+
+  margin-top: 20px;
+}
+
+.chat-form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+/* .chat-container {
+  margin-left: 11%;
+} */
+input[type="text"] {
+  padding: 17px;
+  font-size: 17px;
+  font-family: Kanit;
+}
+
+
+
+button {
+  font-size: 27px;
+  font-family: kanit;
+  font-weight: 200;
+}
+
+.response-box {
+  margin-left: 12%;
+  font-size: 21px;
+  font-family: Kanit;
+  font-weight: 300;
+}
+
+.recharts-wrapper {
+  margin-left: 35%;
+}
+
+.chat-form input {
+    flex: 1 1;
+    padding: 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 100%;
+    background: #853b3b;
+    color: white;
+    border: none;
+    margin-bottom: 15px;
+}
+
+button.sendBtn {
+    font-size: 17px;
+    background: white;
+    border: none;
+    width: 100%;
+    padding: 9px;
+    border-radius: 8px;
+    font-weight: 300;
+}
+
+
+input[type="text"]:focus-visible {
+    outline: none;
+    border: none;
+}
+
+button.sendBtn:hover {
+    background: black;
+    color: white;
+    transition: 0.3s ease-in;
+}
+.ChartPie.col-lg-4 {
+    display: none; /* Initially hide the PieChart container */
+    background: white;
+    margin-top: 2%;
+    margin-left: 1%;
+    padding: 15px;
+    border-radius: 13px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.ChartPie.active {
+    display: block; /* Show the PieChart container when active */
+}
+
+
+.BarChart.col-lg-4 {
+    display: none; /* Initially hide the PieChart container */
+    background: white;
+    margin-top: 2%;
+    margin-left: 1%;
+    padding: 15px;
+    border-radius: 13px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.BarChart.active {
+    display: block; /* Show the PieChart container when active */
+}
+
+.ChartPie.active.col-lg-4 {
+    width: 37%;
+    margin-left: 3%;
+}
+
+.BarChart.active.col-lg-4 {
+    margin-left: 4%;
+    width: 52%;
+}
+
+
+.ContextAnalysis.col-lg-12 {
+    display: none; /* Initially hide the PieChart container */
+    background: white;
+    color: #000000;
+    margin-top: 2%;
+    margin-left: 1%;
+    padding: 15px;
+    border-radius: 13px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.ContextAnalysis.active {
+    display: block; /* Show the PieChart container when active */
+}
+
+.ContextAnalysis.active.col-lg-12 {
+    width: 96%;
+    padding: 37px;
+}
+
+.ContextAnalysis.active.col-lg-12 {
+    width: 93%;
+    padding: 37px;
+    margin-bottom: 14px;
+    background: white;
+    color: black;
+    margin-left: 2.6%;
+}
+
+.ChartPie.active.col-lg-4 {
+    width: 37%;
+    margin-left: 3%;
+    height: max-content;
+}
+
+.colMain.col-lg-10.analyzed {
+    height: 107vh;
+}
+
+
+.apexcharts-menu.apexcharts-menu-open {
+    color: black;
+}
+
+.startVocal.col-lg-12 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+button.recordBtn {
+    border: none;
+    outline: none;
+    background: white;
+    color: black;
+}
+
+input.speaktext {
+    width: 94%;
+    border-radius: 8px;
+    margin-left: 5px;
+    border: none;
+    background: #805555;
+    color: white;
+}
+
+.startVocal.col-lg-12 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2%;
+}
+
+
+button.recordBtn {
+    border: none;
+    outline: none;
+    background: white;
+    color: black;
+    background: none;
+    color: white;
+    background: red;
+    border-radius: 100%;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.AnalyzeCol.col-lg-12 {
+    margin-top: 3%;
+    display: flex;
+    gap: 1%;
+}
+
+button.analyzeBtn {
+    font-size: 18px;
+    border: none;
+    width: 16%;
+    padding: 5px;
+    background: white;
+    font-weight: 300;
+    border-radius: 8px;
+}
+
+.AnalyzeCol.col-lg-12 {
+    margin-top: 3%;
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+}
+
+input.speaktext {
+    width: 75%;
+    border-radius: 8px;
+    margin-left: 5px;
+    border: none;
+    background: #805555;
+    color: white;
+}
+
+.startVocal.col-lg-12 {
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+button.recordBtn:hover {
+    background: white;
+    color: black;
+    transition: 0.4s ease-in;
+}
+
+button.recordBtn.active {
+    background: white;
+    color: black;
+}
+
+input.speaktext::placeholder {
+    color: white;
+    padding: 11px;
+}
+
+button.recordBtn {
+    border: none;
+    outline: none;
+    background: white;
+    color: black;
+    background: none;
+    color: white;
+    background: red;
+    border-radius: 100%;
+    font-size: 1px;
+    padding: 15px;
+}
+input.speaktext {
+    padding: 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 100%;
+    background: #853b3b;
+    color: white;
+    border: none;
+    margin-bottom: 15px;
+    padding: 14px;
+}
+
+.startVocal.col-lg-12 {
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+button.analyzeBtn:hover {
+  background: black;
+  color: white;
+  transition: 0.3s ease-in;
+}
+
+* {
+  font-family: kanit;
+  color:black;
+}
+
